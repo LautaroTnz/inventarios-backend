@@ -1,0 +1,6 @@
+Lt/Inventarios/Service/ProductoServiceImpl.class
+Lt/Inventarios/Service/ProductoService.class
+Lt/Inventarios/Entity/Producto.class
+Lt/Inventarios/Rest/ProductoRest.class
+Lt/Inventarios/InventariosApplication.class
+Lt/Inventarios/Repository/ProductoRepository.class
