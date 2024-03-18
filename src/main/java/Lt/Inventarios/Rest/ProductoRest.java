@@ -27,7 +27,6 @@ public class ProductoRest {
     @GetMapping("/productos")
     public List<Producto> obtenerProductos(){
         List<Producto> productos = this.productoService.listarProductos();
-        logger.info("Productos obtenidos:");
         productos.forEach((producto -> logger.info(producto.toString())));
         return productos;
     }
