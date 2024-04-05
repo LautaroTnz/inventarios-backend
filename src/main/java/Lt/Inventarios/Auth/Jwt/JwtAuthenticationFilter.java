@@ -1,4 +1,4 @@
-package Lt.Inventarios.Jwt;
+package Lt.Inventarios.Auth.Jwt;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

@@ -1,4 +1,4 @@
-package Lt.Inventarios.Jwt;
+package Lt.Inventarios.Auth.Jwt;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

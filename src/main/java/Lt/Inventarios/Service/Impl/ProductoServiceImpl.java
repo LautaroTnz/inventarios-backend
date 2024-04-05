@@ -1,7 +1,8 @@
-package Lt.Inventarios.Service;
+package Lt.Inventarios.Service.Impl;
 
 import Lt.Inventarios.Entity.Producto;
 import Lt.Inventarios.Repository.ProductoRepository;
+import Lt.Inventarios.Service.ProductoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,12 +1,12 @@
 package Lt.Inventarios.Auth.Service;
 
 import Lt.Inventarios.Auth.Dto.AuthResponse;
-import Lt.Inventarios.Auth.Entity.Enum.Role;
-import Lt.Inventarios.Auth.Entity.User;
+import Lt.Inventarios.Auth.User.Role;
+import Lt.Inventarios.Auth.User.User;
 import Lt.Inventarios.Auth.Dto.LoginRequest;
 import Lt.Inventarios.Auth.Dto.RegisterRequest;
 import Lt.Inventarios.Auth.Repository.UserRepository;
-import Lt.Inventarios.Jwt.JwtService;
+import Lt.Inventarios.Auth.Jwt.JwtService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
