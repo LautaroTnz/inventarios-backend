@@ -16,7 +16,7 @@ import java.util.Map;
 @RestController
 //localhost:8080/inventario-app
 @RequestMapping("inventario-app")
-@CrossOrigin(value = "http://localhost:4200")
+@CrossOrigin(value = "https://inventarios-frontend.vercel.app")
 public class ProductoRest {
 
     private static final Logger logger = LoggerFactory.getLogger(ProductoRest.class);
