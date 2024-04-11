@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/empleados")
-//@CrossOrigin(origins = "https://inventarios-frontend.vercel.app/")
+@CrossOrigin(origins = "https://inventarios-frontend.vercel.app/")
 public class EmpleadoRest {
 
     private EmpleadoService empleadoService;
