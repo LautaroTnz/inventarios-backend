@@ -29,11 +29,11 @@ public class SecurityConfig {
                             authRequest
                                     .requestMatchers(HttpMethod.GET).permitAll()
                                     .requestMatchers(HttpMethod.DELETE).permitAll()
-                                    .requestMatchers(HttpMethod.POST).permitAll()
                                     .requestMatchers(HttpMethod.PUT).permitAll()
                                     .requestMatchers(HttpMethod.OPTIONS).permitAll()
                                     .requestMatchers("/auth/**").permitAll()
                                     .requestMatchers("/empleados/**").permitAll()
+                                    .requestMatchers("/inventario-app/**").permitAll()
                                     .anyRequest().authenticated()
                     )
                     .sessionManagement(sessionManager ->
